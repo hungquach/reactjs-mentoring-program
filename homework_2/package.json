@@ -1,0 +1,51 @@
+{
+  "name": "homework_2",
+  "version": "1.0.0",
+  "description": "React GMP Homework 2",
+  "main": "index.js",
+  "scripts": {
+    "start:prod": "cross-env NODE_ENV=production webpack serve --port 3000",
+    "start:dev": "cross-env NODE_ENV=development webpack serve --port 3000",
+    "build:prod": "cross-env NODE_ENV=production webpack",
+    "build:dev": "cross-env NODE_ENV=development webpack",
+    "test": "jest --coverage"
+  },
+  "author": "Hung Quach",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.6",
+    "@types/react": "^17.0.19",
+    "@types/react-dom": "^17.0.9",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.2.0",
+    "file-loader": "^6.2.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "jest": "^27.1.0",
+    "mini-css-extract-plugin": "^2.2.0",
+    "prettier": "^2.3.2",
+    "style-loader": "^3.2.1",
+    "ts-jest": "^27.0.5",
+    "ts-loader": "^9.2.5",
+    "ts-node": "^10.2.1",
+    "tsconfig-paths-webpack-plugin": "^3.5.1",
+    "typescript": "^4.4.2",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "react-router": "^5.2.1",
+    "redux": "^4.1.1"
+  }
+}
